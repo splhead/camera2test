@@ -31,4 +31,14 @@
         android:layout_marginStart="50dp"
         android:src="@mipmap/btn_camera" />
 
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer"
+        android:visibility="invisible"
+        android:textColor="#ff0000"
+        android:textSize="25sp"
+        android:layout_above="@id/videoOnlineImageButton"
+        android:layout_alignStart="@id/videoOnlineImageButton" />
+
 </RelativeLayout>
